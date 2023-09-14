@@ -418,8 +418,10 @@ function openPasswordPrompt(foldername) {
 		var d = document.getElementById("folderD");
 		d.innerHTML = foldername;
 
-		var h = document.getElementById("passwordHint");
-		h.innerHTML = passwordHintCenter[foldername];
+		var hs = document.getElementsByClassName("passwordHint");
+		for(var h of hs){
+			h.innerHTML = passwordHintCenter[foldername];
+		}	
 
 		var p = document.getElementById("passPrompt-window");
 		p.classList.remove("hidden");

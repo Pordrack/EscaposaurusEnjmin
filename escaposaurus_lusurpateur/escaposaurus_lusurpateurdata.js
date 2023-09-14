@@ -50,22 +50,6 @@ var udiskData =
 					]
 				},
 				{
-					"foldername": "resultats", "password": "thompson", "passwordHint": "Nom de famille de mon bienfaiteur", "sequence": 2,
-					"files": [
-						"miss_usa.mp4",
-						"nba_contest.mp4",
-						"resultats.jpg",
-						"resultats_golf.jpg",
-						"resultats_suffrages.jpg",
-					]
-				},
-				{
-					"foldername": "comptabilite", "password": "finances", "passwordHint": "Dernier sujet du jour", "sequence": 1,
-					"files": [
-						"scan_cheque.jpg",
-					]
-				},
-				{
 					"foldername": "reunions", "password": "jazz", "passwordHint": "Evident", "sequence": 0,
 					"folders": [
 						{
@@ -81,6 +65,28 @@ var udiskData =
 					],
 					"files":[]
 				},
+				{
+					"foldername": "comptabilite", "password": "finances", "passwordHint": "Dernier sujet du jour", "sequence": 1,
+					"files": [
+						"scan_cheque.jpg",
+					]
+				},
+				{
+					"foldername": "resultats", "password": "thompson", "passwordHint": "Nom de famille de mon bienfaiteur", "sequence": 2,
+					"files": [
+						"miss_usa.mp4",
+						"nba_contest.mp4",
+						"resultats.jpg",
+						{
+					"foldername": "comptabilite", "password": "finances", "passwordHint": "Dernier sujet du jour", "sequence": 1,
+					"files": [
+						"scan_cheque.jpg",
+					]
+				},
+						"resultats_golf.jpg",
+						"resultats_suffrages.jpg",
+					]
+				},
 			],
 		"files": []
 	}
@@ -88,7 +94,7 @@ var udiskData =
 
 var gameTitle = "L'Usurpateur";
 var gameDescriptionHome = "Vous êtes un étudiant dans une université américaine pour les sourds";
-var gameMissionCall = "Voici la disquette que votre ami syndicaliste Peter Floyd à volé à l'administration";
+var gameMissionCall = "Votre ami syndicaliste Peter Floyd veut vous parler";
 var gameMissionAccept = "&raquo;&raquo; Accepter la mission et charger la disquette dans votre PC (JOUER) &laquo;&laquo;";
 
 var gameCredit = "Un jeu conçu et réalisé par : <br/>Florian Caron<br/>Morgane Raymond<br/>Aurore Berthet<br/>Victorien Prévot<br/>Sasha Burlet<br/>Jérémy Loïc Auclair";

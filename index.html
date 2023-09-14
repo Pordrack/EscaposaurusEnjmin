@@ -147,7 +147,9 @@
 				<input id="passwordInput" name="passwordInput" type="text" placeholder="mot de passe" value="" autocomplete="off" onkeypress="checkIfEnter(event, passwordInput.value, folderInput.value)" />
 				<input id="folderInput" name="folderInput" type="hidden" value="0" />
 				<br/>
-				Indication de mot de passe : <span id="passwordHint"></span>
+				<br/>
+				Indication de mot de passe : <span class="passwordHint"></span>
+				<br/>
 				<br/>
 				<button class="window-btn" onclick="checkPassword(passwordInput.value, folderInput.value)">OK</button>
 				&nbsp;&nbsp;
@@ -157,10 +159,11 @@
 
 	<!-- WRONG PASSWORD MSG -->
 		<div id="wrongPassword" class="hidden">
-			<div class="app-title"><span class="app-title-span">:(</span></div>
+			<div class="app-title"><span class="app-title-span">Mauvais mot de passe :(</span></div>
 			<div class="message-content">
 				<br/>
-				Mauvais mot de passe<br/>
+				Indication de mot de passe : <span class="passwordHint"></span>
+				<br/>
 				<br/>
 				<button class="window-btn" onclick="closeWrongPassword()">OK</button>
 			</div>

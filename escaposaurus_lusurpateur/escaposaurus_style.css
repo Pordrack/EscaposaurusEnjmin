@@ -265,7 +265,7 @@ video {
 #UIvid-window {
 	position: absolute;
 	z-index: 305;
-	left: 20%;
+	left: calc(50% - 500px);
 	top: 10%;
 	border: 1px solid white;
 	background-color: #000;
@@ -289,6 +289,15 @@ video {
 	border: 1px solid black;
 	background-color: #000;
 	width: 500px;
+}
+
+#wrongPassword{
+	border: 2px solid white;
+	top:37.5%;
+}
+
+#wrongPassword .message-content{
+	font-size: 20px;
 }
 
 #solution-window,

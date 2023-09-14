@@ -83,7 +83,7 @@
 
 		var gameTitle = "L'Usurpateur" ;
 		var gameDescriptionHome = "Vous êtes un étudiant dans une université américaine pour les sourds" ;
-		var gameMissionCall = "Voici la disquette que votre amie syndicaliste Peter Floyd à volé à l'administration" ;
+		var gameMissionCall = "Voici la disquette que votre ami syndicaliste Peter Floyd à volé à l'administration" ;
 		var gameMissionAccept = "&raquo;&raquo; Accepter la mission et charger la disquette dans votre PC (JOUER) &laquo;&laquo;" ;
 
 		var gameCredit = "Un jeu conçu et réalisé par : <br/>Florian Caron<br/>Morgane Raymond<br/>Aurore Berthet<br/>Victorien Prévot<br/>Sasha Burlet<br/>Jérémy Loïc Auclair" ;

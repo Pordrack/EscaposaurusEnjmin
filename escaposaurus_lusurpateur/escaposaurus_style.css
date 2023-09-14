@@ -175,21 +175,35 @@ video {
 
 .contact-div span{
 	color:#51D751;
-	font-weight: bolder;
+	animation: flicker 0.8s infinite; 
 	font-size: 30px;
 }
+
+@keyframes flicker {
+    
+	0%, 100% {
+		font-weight: bolder;
+	}
+	
+	50% {        
+		font-weight:bolder;
+		color:white;
+	}    
+  }
 
 .contact-div.no-call span{
 	font-size: 16px;
 	font-weight: normal;
 	font-style: italic;
 	color: #aaaaaa;
+	animation: none;
 }
 
-.already-called {
+.already-called span{
 	font-size: 16px;
 	color:white;
 	font-weight: normal;
+	animation: none;
 }
 
 /* udisk app*/

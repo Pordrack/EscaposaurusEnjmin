@@ -1,4 +1,3 @@
-<!--
 /////////////////////////////////////////////////////////////
 /// Escapausorus v1 (2020)
 ///	A quick and dirty framework to create small adventure game (certified vanilla JS)
@@ -6,7 +5,6 @@
 /// GitHub: https://github.com/RedNaK/escaposaurus
 ///	Licence: MIT
 ////////////////////////////////////////////////////////////
--->
 
 	/*
 		HERE IS THE CONFIGURATION OF THE GAME
@@ -63,10 +61,10 @@ var udiskData =
 							],
 						}
 					],
-					"files":[]
+					"files": []
 				},
 				{
-					"foldername": "comptabilite", "password": "finances", "passwordHint": "Dernier sujet du jour", "sequence": 1,
+					"foldername": "comptabilite", "password": "finances", "passwordHint": "Dernier sujet de la réunion", "sequence": 1,
 					"files": [
 						"scan_cheque.jpg",
 					]
@@ -77,14 +75,8 @@ var udiskData =
 						"miss_usa.mp4",
 						"nba_contest.mp4",
 						"resultats.jpg",
-						{
-					"foldername": "comptabilite", "password": "finances", "passwordHint": "Dernier sujet du jour", "sequence": 1,
-					"files": [
-						"scan_cheque.jpg",
-					]
-				},
 						"resultats_golf.jpg",
-						"resultats_suffrages.jpg",
+						"resultats_suffrages.pdf",
 					]
 				},
 			],
@@ -128,7 +120,7 @@ var seqMainHint = [];
 seqMainHint[0] = "none";
 seqMainHint[1] = "none";
 seqMainHint[2] = "scan_cheque.jpg"; /*if you put anything that is not an existing filename of the udisk, the player will never be able to call any contacts or get helps during this sequence*/
-seqMainHint[3] = "resultats_suffrages.jpg";
+seqMainHint[3] = "resultats_suffrages.pdf";
 
 /*contact list, vid is the name of their folder in the videoContact folder, then the game autoload the video named seq%number of the current sequence%, e.g. seq0.MP4 for the first sequence (numbered 0 because computer science habits)
 their img need to be placed in their video folder, username is their displayed name
@@ -137,6 +129,14 @@ var normalContacts = [];
 normalContacts[0] = { "vid": "Peter", "vod_folder": "", "username": "Peter", "canal": "video", "avatar": "peter.png" };
 
 var helperContacts = [];
+// helperContacts[0] = { "vid": "Hazel", "vod_folder": "", "username": "Hazel", "canal": "text", "avatar": "hazel.jpg" };
+
+// var tips = {};
+// tips['Hazel'] = [];
+// tips['Hazel'][0] = "Il ne s'y connais pas beaucoup en cybersécurité, je pense qu'il à laissé ses indications de mots de passe activé. Ca devrais vous les montrer sur le popup qui demande un mot de passe. Sinon il adore son chat, il y a peut être quelque chose à creuser ?";
+// tips['Hazel'][1] = "La réunion du 11-02-03 à changé sa vie, c'est celle ou cet abruti abjecte s'est fait \"élire\", si il parle d'une réunion ça doit être celle là.";
+// tips['Hazel'][2] = "Si vous avez une signature et que vous savez pas à qui elle appartient, normalement chaque compte rendu commence par une feuille de présence, vous pouvez peut être vous en servir pour comparer ?";
+
 /*ce qui apparait quand on trouve le dernier élément du disque dur*/
 finalStepAdded = "none";
 

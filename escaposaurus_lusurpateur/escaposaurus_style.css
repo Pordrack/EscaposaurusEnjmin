@@ -199,6 +199,13 @@ video {
 	animation: none;
 }
 
+.contact-list#help-contact .contact-div span{
+	font-size: 16px;
+	color:white;
+	font-style: normal;
+	font-weight: normal;
+}
+
 .already-called span{
 	font-size: 16px;
 	color:white;

@@ -480,6 +480,7 @@ function openVideoWindow(vid, vid_folder) {
 		title = titleData.epilogueTitle;
 		src = epilogueVideoPath;
 	} else if (vid == "missing") {
+		if(!mainHintFound) return;
 		title = titleData.callTitle;
 		src = missingVideoPath;
 
@@ -554,7 +555,7 @@ function changingSequence() {
 		TinyStato.logThis(2, "win", "", sequenceNumber);
 
 		if (finalStepAdded == "none") {
-			smainHintFound = false;
+			mainHintFound = false;
 			lockContacts();
 		} else {
 			unlockContacts();

@@ -305,11 +305,11 @@ function createContactList() {
 
 	/*create helper contact*/
 	for (var i = 0; i < helperContacts.length; i++) {
-		createContact(helperContacts[i], hc);
+		createContact(helperContacts[i], hc, true);
 	}
 }
 
-function createContact(contact, parent) {
+function createContact(contact, parent, forceOpen=false) {
 	var x = document.createElement("div");
 	x.id = "divcontact-" + contact.vid;
 	x.classList.add("contact-div");
@@ -323,7 +323,7 @@ function createContact(contact, parent) {
 			x.setAttribute("onclick", "openVideoWindow('" + contact.vid + "', '" + videoRootVOD + "/" + contact.vod_folder + "')");
 		}
 	} else if (contact.canal == "txt") {
-		x.setAttribute("onclick", "openContactTxTWindow('" + contact.vid + "', '" + contactVideoRoot + contact.vid + "/" + contact.bigAvatar + "')");
+		x.setAttribute("onclick", "openContactTxTWindow('" + contact.vid + "', '" + contactVideoRoot + contact.vid + "/" + contact.bigAvatar + "',"+forceOpen+")");
 	}
 
 	var im = document.createElement("img");
@@ -452,8 +452,8 @@ const animation = {
 };
 
 
-function openContactTxTWindow(vid, bigAvatarHelper) {
-	if (mainHintFound) {
+function openContactTxTWindow(vid, bigAvatarHelper, forceOpen) {
+	if (mainHintFound || forceOpen) {
 		TinyStato.logThis(13, "textexchange", vid, sequenceNumber);
 		document.getElementById("caller2IMG").src = bigAvatarHelper;
 		var z = document.getElementById("tips-content");

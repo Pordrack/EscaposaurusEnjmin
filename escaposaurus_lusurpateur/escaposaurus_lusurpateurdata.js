@@ -87,7 +87,7 @@
 		var gameMissionAccept = "&raquo;&raquo; Accepter la mission et charger la disquette dans votre PC (JOUER) &laquo;&laquo;" ;
 
 		var gameCredit = "Un jeu conçu et réalisé par : <br/>Florian Caron<br/>Morgane Raymond<br/>Aurore Berthet<br/>Victorien Prévot<br/>Sasha Burlet<br/>Jérémy Loïc Auclair" ;
-		var gameThanks = "Remerciements : <br/> Théophile Carrasco <br/> " ;
+		var gameThanks = "Remerciements : <br/> Théophile Carrasco <br/> Romain Belet <br/> Margot Thietot" ;
 
 		var OSName = "Gate OS 2.11.2		copyright Picosoft 1988" ;
 		var explorerName = "FLOPPY DISK EXPLORER" ;

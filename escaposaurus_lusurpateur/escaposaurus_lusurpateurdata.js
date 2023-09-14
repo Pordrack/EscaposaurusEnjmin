@@ -134,7 +134,7 @@ helperContacts[0] = { "vid": "Hazel", "vod_folder": "", "username": "Hazel", "ca
 var tips = {};
 tips['Hazel'] = [];
 tips['Hazel'][0] = "Il ne s'y connait pas beaucoup en cybersécurité, je pense qu'il a laissé ses indications de mots de passe activées. Ça devrait vous les montrer sur le popup qui demande un mot de passe. Sinon il adore son chat, il y a peut être quelque chose à creuser ?";
-tips['Hazel'][1] = "La réunion du 11-02-03 a changé sa vie, c'est celle ou cet abruti abjecte s'est fait \"élire\", si il parle d'une réunion ça doit être celle là.";
+tips['Hazel'][1] = "La réunion du 11-02-03 a changé sa vie, c'est celle ou cet abruti abject s'est fait \"élire\", s'il parle d'une réunion ça doit être celle là.";
 tips['Hazel'][2] = "Si vous avez une signature et que vous ne savez pas à qui elle appartient, normalement chaque compte-rendu commence par une feuille de présence, vous pouvez peut être vous en servir pour comparer ?";
 
 /*ce qui apparait quand on trouve le dernier élément du disque dur*/

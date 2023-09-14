@@ -57,7 +57,8 @@ var udiskData =
 								"08-02-1988.pdf",
 								"11-02-1988.pdf",
 								"27-02-1988.pdf",
-								"annexe.jpg"
+								"annexe.jpg",
+								"annexe2.jpg"
 							],
 						}
 					],

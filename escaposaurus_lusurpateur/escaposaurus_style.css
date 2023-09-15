@@ -204,6 +204,7 @@ video {
 	color:white;
 	font-style: normal;
 	font-weight: normal;
+	animation: none;
 }
 
 .already-called span{
